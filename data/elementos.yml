@@ -1,0 +1,43 @@
+#home
+campo_busca: '#ctl00_TopBar_PaginaSistemaArea1_ctl10_ctl00_txtBusca'
+btn_buscar: '#ctl00_TopBar_PaginaSistemaArea1_ctl10_ctl00_btnOK'
+#cadastro PF
+lnk_cadastro: '#lnkCadastreSe'
+rb_cadastro: '#rbNaoCadastrado'
+btn_continuar: '#btnClienteLogin'
+campo_nomeCompleto: '#NomeCompleto'
+campo_cpf: '#Cpf'
+campo_telefoneDDD1: '#Telefone1DDDPF'
+campo_telefone1: '#Telefone1PF'
+campo_telefoneDDD2: '#Telefone2DDDPF'
+campo_telefone2: '#Telefone2PF'
+campo_dataNascimentoDia: '#DataNascimentoDia'
+campo_dataNascimentoMes: '#DataNascimentoMes'
+campo_dataNascimentoAno: '#DataNascimentoAno'
+rb_genero_M: '.sexM'
+rb_genero_F: '.sexF'
+campo_email: '#Email'
+campo_confirmarEmail: '#ConfirmarEmail'
+campo_senha: '#Senha'
+campo_confirmarSenha: '#ConfirmarSenha'
+btn_continuar_cadastro: '#btnClienteSalvar'
+
+#cadastro PJ
+campo_razaoSocial: '#RazaoSocial'
+campo_nomeFantasia: '#NomeFantasia'
+campo_cnpj: '#Cnpj'
+lsb_estadoPJ: '#EstadoSedeEmpresa'
+campo_inscricaoEstadual: '#InscricaoEstadual'
+chk_isento: '#IsentoInscricaoEstadual'
+rb_tipoPessoa: '.labelPJ'
+campo_telefoneDDD1PJ: '#Telefone1DDDPJ'
+campo_telefone1PJ: '#Telefone1PJ'
+campo_telefoneDDD2PJ: '#Telefone2DDDPJ'
+campo_telefone2PJ: '#Telefone2PJ'
+lbl_ola: '#lblLoginMsg'
+
+#compra
+
+btn_comprar: '#btnAdicionarCarrinho'
+btn_continuar_garantia: '.decline-button'
+lbl_produto_carrinho: '.name'

@@ -1,0 +1,3 @@
+nomeCompleto: Gervazio Oliveira
+cpf: FFaker::IdentificationBR.cpf
+email: FFaker::Internet.email
