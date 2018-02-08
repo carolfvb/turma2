@@ -1,7 +1,10 @@
 require 'ffaker'
+
 class CadastroPage
   include RSpec::Matchers
   include Capybara::DSL
+
+
 
   def preecherCadastro_fisica
     dados_cadastro = CADASTRO[:fisica]
@@ -15,7 +18,7 @@ class CadastroPage
     find(EL['campo_dataNascimentoDia']).set('10')
     find(EL['campo_dataNascimentoMes']).set('12')
     find(EL['campo_dataNascimentoAno']).set('1990')
-    find(EL['rb_genero_F']).click
+    CommonPage.new.clicar_elemento('rb_genero_F')
     find(EL['campo_email']).set(dados_cadastro[:email])
     find(EL['campo_confirmarEmail']).set(dados_cadastro[:email])
     find(EL['campo_senha']).set('A1234567')
@@ -25,7 +28,8 @@ class CadastroPage
   def preecherCadastro_juridica
     dados_cadastro = CADASTRO[:juridica]
     $juridica = dados_cadastro[:razaoSocial]
-    find(EL['rb_tipoPessoa']).click
+    # CommonPage.new.clicar_elemento('rb_tipoPessoa')
+    find(EL['rb_tipoPessoa'], wait:10).click
     find(EL['campo_razaoSocial']).set(dados_cadastro[:razaoSocial])
     find(EL['campo_nomeFantasia']).set(dados_cadastro[:razaoSocial])
     find(EL['campo_cnpj']).set(dados_cadastro[:cnpj])

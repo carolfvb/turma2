@@ -1,1 +1,3 @@
-default: --no-source --color --format pretty
+html_report: --format progress --format html --out=features_report.html
+json: --format progress --format json --out=features_report.json
+xml_report: --format progress --format junit --out=features_report.xml

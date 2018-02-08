@@ -1,0 +1,280 @@
+[
+  {
+    "uri": "features/cadastro.feature",
+    "id": "cadastrar-usuario-no-site",
+    "keyword": "Funcionalidade",
+    "name": "Cadastrar usuario no site",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "cadastrar-usuario-no-site;criar-um-novo-cadastro-na-casas-bahia;;2",
+        "keyword": "Esquema do Cenario",
+        "name": "Criar um novo cadastro na Casas Bahia",
+        "description": "",
+        "line": 15,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.14.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23949
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.14.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11547
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9707684867
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na url \"https://www.casasbahia.com.br\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6535679218
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no link \"lnk_cadastro\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1912370164
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "seleciono \"rb_cadastro\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100096821
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no botao \"btn_continuar\" indice \"0\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114602435
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "preencho as informacoes de cadastro \"fisica\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3156805524
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clico no botao \"btn_continuar_cadastro\" indice \"0\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138719158
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "sou direcionado para a home logados com \"fisica\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6202743318
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-2.14.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3874341840
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastrar-usuario-no-site;criar-um-novo-cadastro-na-casas-bahia;;3",
+        "keyword": "Esquema do Cenario",
+        "name": "Criar um novo cadastro na Casas Bahia",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.14.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20527
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.14.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10264
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43037870
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na url \"https://www.casasbahia.com.br\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3522131123
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no link \"lnk_cadastro\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1180802502
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "seleciono \"rb_cadastro\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100434241
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no botao \"btn_continuar\" indice \"0\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102933881
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "preencho as informacoes de cadastro \"juridica\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2773730550
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clico no botao \"btn_continuar_cadastro\" indice \"0\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121033504
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "sou direcionado para a home logados com \"juridica\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4458747588
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-2.14.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3741307066
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

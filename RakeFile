@@ -1,0 +1,11 @@
+desc 'executa feature cadastro'
+  task :cadastro do
+  puts 'executando a feature cadastro'
+  sh 'cucumber chrome=true features\cadastro.feature'
+end
+
+desc 'executa feature busca'
+task :busca do
+  puts 'executando a feature busca'
+  sh 'cucumber chrome=true features\busca.feature'
+end
